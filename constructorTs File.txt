@@ -1,0 +1,18 @@
+class details{
+    public name: string ;
+    private age: number;
+
+    constructor(name:string,age:number){
+        this.name=name;
+        this.age=age;
+
+    }
+person(){
+    document.write(`*******<br><br>`);
+    document.write(`--- Your name is: ${this.name}---<br><br>`);
+    document.write(`*******<br><br>`);
+    document.write(`--- Your age is: ${this.age}---`);
+}
+}
+let detailObj=new details("gurpreet",20);
+
